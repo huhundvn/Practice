@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">Practice</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_guide">GuideActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- Guide -->
+    <string name="btn_next">Next</string>
+    <string name="btn_skip">Skip</string>
+    <string name="guide_01_title">Learn follow category</string>
+    <string name="guide_01_desc">Learn follow category</string>
+    <string name="guide_02_title">Learn follow category</string>
+    <string name="guide_02_desc">Learn follow category</string>
+    <string name="guide_03_title">Learn follow category</string>
+    <string name="guide_03_desc">Learn follow category</string>
 </resources>

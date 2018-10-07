@@ -3,4 +3,10 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    <!-- Guider background color -->
+    <color name="white_text">#ffffff</color>
+    <color name="bg_guide_01">#f4b241</color>
+    <color name="bg_guide_02">#16bc7d</color>
+    <color name="bg_guide_03">#203d8c</color>
 </resources>

@@ -19,15 +19,5 @@ public class DetailActivity extends AppCompatActivity {
         setContentView(R.layout.activity_detail);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        MediaPlayer mediaPlayer = new MediaPlayer();
-        try {
-            AssetFileDescriptor assetFileDescriptor = getAssets().openFd("a.mp3");
-            mediaPlayer.setDataSource(assetFileDescriptor.getFileDescriptor(), assetFileDescriptor.getStartOffset(), assetFileDescriptor.getLength());
-            assetFileDescriptor.close();
-            mediaPlayer.prepare();
-            mediaPlayer.start();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
     }
 }
